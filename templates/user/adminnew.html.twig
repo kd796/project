@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New User{% endblock %}
+
+{% block body %}
+    <div class="container border mt-5 shadow-lg p-3 mb-5 bg-white rounded">
+        <div class="form-group border">
+            <h1>Register USER</h1>
+
+            {{ include('user/_form.html.twig') }}
+
+        </div>
+    </div>
+{% endblock %}
